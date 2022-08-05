@@ -45,4 +45,13 @@ public class PaginaProductosSteps {
 
     }
 
+    @Step
+    public void clicImagenProductoSofa(){
+
+
+
+        paginaProductosObject.getDriver().findElement(paginaProductosObject.getImgProductoSofa()).click();
+
+    }
+
 }

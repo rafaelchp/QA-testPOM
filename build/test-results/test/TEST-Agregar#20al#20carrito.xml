@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Agregar al carrito" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-05T22:39:31" hostname="DevOp" time="35.475">
+<testsuite name="Agregar al carrito" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-05T23:45:49" hostname="DevOp" time="52.603">
   <properties/>
-  <testcase name="Agregar productos al carrito" classname="Agregar al carrito" time="35.475"/>
+  <testcase name="Agregar productos al carrito" classname="Agregar al carrito" time="52.603"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[ago. 05, 2022 5:39:31 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[ago. 05, 2022 6:45:49 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 8258
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 9284
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1659739172,920][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-ago. 05, 2022 5:39:32 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1659743150,751][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago. 05, 2022 6:45:50 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

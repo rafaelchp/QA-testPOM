@@ -47,4 +47,21 @@ public class PaginaAgregarAlCarroSteps {
                 .findElement(paginaAgregarAlCarroObject.getMsjResumenCompra()).isDisplayed(), Matchers.is(true));
 
     }
+
+    @Step
+    public void clicRetornoHome(){
+
+        paginaAgregarAlCarroObject.getDriver().findElement(paginaAgregarAlCarroObject.getBtnHome()).click();
+        wait.esperaImplicita(5);
+
+    }
+
+    @Step
+    public  void clicBusqueda(){
+        paginaAgregarAlCarroObject.getDriver().findElement(paginaAgregarAlCarroObject.getTxtBusqueda())
+                .sendKeys("sofacama");
+
+        paginaAgregarAlCarroObject.getDriver().findElement(paginaAgregarAlCarroObject.getBtnBuscar()).click();
+        wait.esperaImplicita(3);
+    }
 }

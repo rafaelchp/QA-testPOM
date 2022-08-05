@@ -4,6 +4,7 @@ package com.dekosas.StepDefinition;
  *@author Rafael Chica.
  */
 import com.dekosas.Steps.PaginaAgregarAlCarroSteps;
+import com.dekosas.Steps.PaginaProductosSteps;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
@@ -12,6 +13,8 @@ public class AgregarAlCarroStepDefinition {
 
     @Steps
     PaginaAgregarAlCarroSteps paginaAgregarAlCarroSteps;
+    @Steps
+    PaginaProductosSteps paginaProductosSteps;
 
     @Dado("^que el usuario se encuentre en el producto seleccionado$")
     public void que_el_usuario_se_encuentre_en_el_producto_seleccionado() {
@@ -35,6 +38,9 @@ public class AgregarAlCarroStepDefinition {
     @Entonces("^visualizara un mensaje de carrito de compras$")
     public void visualizara_un_mensaje_de_carrito_de_compras() {
         paginaAgregarAlCarroSteps.validarResumenCompra();
+        paginaAgregarAlCarroSteps.clicRetornoHome();
+        paginaAgregarAlCarroSteps.clicBusqueda();
+        paginaProductosSteps.clicImagenProductoSofa();
 
     }
 
